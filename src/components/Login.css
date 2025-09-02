@@ -1,0 +1,227 @@
+/* =============================
+   Global Container  
+============================= */
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #007b8f; /* Main background color */
+  font-family: Arial, sans-serif;
+}
+
+/* =============================
+   Card Box
+============================= */
+.login-box {
+  background: #fff;
+  padding: 30px;
+  width: 380px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+/* Title */
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+  font-size: 20px;
+}
+
+/* Labels */
+.login-box label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  display: block;
+  color: #333;
+}
+
+/* Inputs */
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.login-box input:focus {
+  border-color: #007b8f;
+  outline: none;
+  box-shadow: 0 0 4px rgba(0, 123, 143, 0.4);
+}
+
+/* =============================
+   Tabs (Email / Google / Phone)
+============================= */
+.login-tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #eee;
+}
+
+.login-tabs button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+  border-radius: 6px 6px 0 0;
+}
+
+.login-tabs button:hover {
+  background: #f1f1f1;
+}
+
+.login-tabs button.active {
+  background: #007b8f;
+  color: #fff;
+}
+
+/* =============================
+   Base Button Styles
+============================= */
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: 500;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.login-box button:hover {
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+/* Primary (Sign In / Sign Up) */
+.btn-primary {
+  background: #007b8f;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #006678;
+}
+
+/* Google */
+.btn-google {
+  background: #db4437;
+  color: white;
+}
+
+.btn-google:hover {
+  background: #c1351d;
+}
+
+/* =============================
+   Phone Login Specific Styles
+============================= */
+.phone-section input {
+  border-color: #6a1b9a; /* Purple border for phone inputs */
+  background: #f3e8ff; /* Light purple background */
+}
+
+.phone-section input:focus {
+  border-color: #8e24aa;
+  box-shadow: 0 0 4px rgba(142, 36, 170, 0.4);
+}
+
+/* Send OTP Button */
+.btn-warning {
+  background: #6a1b9a; /* Purple instead of yellow */
+  color: white;
+  font-weight: 600;
+  border: 2px solid transparent;
+}
+
+.btn-warning:hover {
+  background: #4a126b;
+  border-color: #8e24aa;
+  transform: translateY(-2px);
+}
+
+/* Verify OTP Button */
+.btn-success {
+  background: #00c4b4; /* Teal instead of green */
+  color: white;
+  font-weight: 600;
+  border: 2px solid transparent;
+}
+
+.btn-success:hover {
+  background: #00a69b;
+  border-color: #26a69a;
+  transform: translateY(-2px);
+}
+
+/* =============================
+   Divider (Unused but kept for potential use)
+============================= */
+.divider {
+  text-align: center;
+  margin: 15px 0;
+  color: #888;
+  font-size: 14px;
+  position: relative;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background: #ddd;
+}
+
+.divider::before {
+  left: 0;
+}
+
+.divider::after {
+  right: 0;
+}
+
+/* =============================
+   Links
+============================= */
+.login-links {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.login-links a {
+  color: #007b8f;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.login-links a:hover {
+  text-decoration: underline;
+}
+
+/* =============================
+   Icons inside buttons
+============================= */
+button img {
+  width: 18px;
+  height: 18px;
+}
+

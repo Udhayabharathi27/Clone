@@ -1,0 +1,89 @@
+/* components/JudgmentsSection.css */
+.judgments-section {
+  padding: 40px 0;
+  background-color: #f8fafc;
+}
+
+.judgments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.judgment-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.judgment-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.judgment-title {
+  font-size: 1.1rem;
+  color: #1e293b;
+  margin-bottom: 0.8rem;
+  line-height: 1.4;
+}
+
+.judgment-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.court {
+  color: #475569;
+  font-weight: 500;
+}
+
+.date {
+  color: #64748b;
+}
+
+.judges {
+  font-size: 0.9rem;
+  color: #475569;
+  margin-bottom: 0.8rem;
+  line-height: 1.4;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  background: #e0f2fe;
+  color: #0369a1;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.view-all-container {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .judgment-card {
+    padding: 1.2rem;
+  }
+  
+  .judgment-title {
+    font-size: 1rem;
+  }
+  
+  .judgment-meta {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+}

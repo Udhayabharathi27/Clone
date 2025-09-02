@@ -1,0 +1,152 @@
+/* components/Testimonials.css */
+.testimonial-container {
+  max-width: 800px;
+  margin: 0 auto 4rem;
+  position: relative;
+}
+
+.testimonial-card {
+  background: white;
+  border-radius: 10px;
+  padding: 2.5rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.quote-mark {
+  font-size: 4rem;
+  color: #2563eb;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.testimonial-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #475569;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #dbeafe;
+  color: #2563eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.author-info h4 {
+  color: #1e293b;
+  margin-bottom: 0.25rem;
+}
+
+.author-info p {
+  color: #64748b;
+  margin: 0;
+}
+
+.testimonial-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.control-btn {
+  background: white;
+  border: 1px solid #cbd5e1;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.control-btn:hover {
+  background-color: #2563eb;
+  color: white;
+  border-color: #2563eb;
+}
+
+.testimonial-dots {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #cbd5e1;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dot.active {
+  background-color: #2563eb;
+  transform: scale(1.2);
+}
+
+.logos-section {
+  text-align: center;
+}
+
+.logos-section h3 {
+  margin-bottom: 2rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.logos-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.logo-item {
+  width: 120px;
+  height: 60px;
+  background-color: #f8fafc;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #94a3b8;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .testimonial-card {
+    padding: 1.5rem;
+  }
+  
+  .testimonial-content p {
+    font-size: 1rem;
+  }
+  
+  .logos-container {
+    gap: 1rem;
+  }
+  
+  .logo-item {
+    width: 100px;
+  }
+}
