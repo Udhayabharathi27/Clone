@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Clone/static/css/main.bdd626cf.css",
+    "main.css": "/Clone/static/css/main.85eda6bd.css",
     "main.js": "/Clone/static/js/main.60bb2be5.js",
     "static/media/research-book-image.png": "/Clone/static/media/research-book-image.82c70ebe2622e1f38bf6.png",
     "index.html": "/Clone/index.html",
-    "main.bdd626cf.css.map": "/Clone/static/css/main.bdd626cf.css.map",
+    "main.85eda6bd.css.map": "/Clone/static/css/main.85eda6bd.css.map",
     "main.60bb2be5.js.map": "/Clone/static/js/main.60bb2be5.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdd626cf.css",
+    "static/css/main.85eda6bd.css",
     "static/js/main.60bb2be5.js"
   ]
 }
